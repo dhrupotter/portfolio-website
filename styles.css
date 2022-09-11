@@ -10,6 +10,7 @@
 body {
     background-color: var(--off-white);
     font-family: 'Roboto', sans-serif;
+    margin: 0rem;
 }
 
 .heading {
@@ -22,7 +23,6 @@ body {
 
 .container {
     padding: 0rem 2rem;
-    
 }
 
 .container-center {
@@ -41,13 +41,28 @@ body {
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
     color: var(--off-white);
-    border: 1px solid var(--dark-grey); 
+    border: 1px solid var(--dark-grey);
+    border-radius: 0.5rem
+}
+
+.link-secondary {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color); 
+    border-radius: 0.5rem;
+    margin: 4rem 0rem;
 }
 
 .link:hover{
     color: var(--primary-color);
     background-color: var(--off-white);
     border: 1px solid var(--dark-grey); 
+}
+
+.link-wrapper {
+    padding: 1rem 0;
 }
 
 .list-non-bullet {
@@ -60,12 +75,14 @@ display: inline;
   padding: 0rem 0.5rem;
 }
 
+
+
 .navigation {
     background-color: var(--primary-color);
     color: var(--off-white);
     padding: 1rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 
   }
   
@@ -117,6 +134,9 @@ display: inline;
 
 .section {
     padding: 2rem;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
 }
 
 .section h1{
@@ -133,10 +153,12 @@ display: inline;
     padding: 1rem 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    margin-top: 2rem;
 }
 
 .footer-header {
     text-align: center;
+    font-weight: bold;
 }
 
 .footer .link {
