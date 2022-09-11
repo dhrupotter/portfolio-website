@@ -114,3 +114,16 @@ display: inline;
     font-size: 50px;
     color: var(--dark-grey);
 }
+
+.section {
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.section-bg {
+    background-color: var(--secondary-color);  
+}
