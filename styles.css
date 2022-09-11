@@ -99,3 +99,18 @@ display: inline;
 .navigation .link-active {
     font-weight: bold;
 }
+
+.header {
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.header .header-img {
+    max-width: 1000px;
+}
+
+.header .header-heading {
+    font-size: 50px;
+    color: var(--dark-grey);
+}
